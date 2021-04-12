@@ -1,0 +1,6 @@
+docker build -f Dockerfile.dev -t devimage .
+
+-f force different Dockerfile than default
+
+normal build
+docker build -t redux-app .
